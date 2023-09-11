@@ -1,6 +1,5 @@
-export function App() {
-  return (
-     <h1>Hello word</h1>
-  )
-}
+import { Button } from './components/ui/button'
 
+export function App() {
+  return <Button>Click me</Button>
+}
